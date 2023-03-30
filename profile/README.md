@@ -4,10 +4,10 @@
 
 |   Administración   |      Diseño     |      Marketing      |   Operaciones   |       Riesgo      |
 |:------------------:|:---------------:|:-------------------:|:---------------:|:-----------------:|
-| Financiero         | Contenido       | Plan de marketing   | asistentes      | Cumplimiento      |
+| Financiero         | Contenido       | Plan de marketing   | Asistentes      | Cumplimiento      |
 | Recursos humanos   | Tema            | Materiales          | Comunicaciones  | Decisiones        |
 | Información        | Programa        | Mercancías          | Infraestructura | Emergencia        |
-| Obtención          | Ambiente        | Promoción           | Logística       | Salud y Seguridad |
+| Aprovisionamiento  | Entorno         | Promoción           | Logística       | Salud y Seguridad |
 | Partes interesadas | Producción      | Relaciones públicas | Participantes   | Seguro            |
 | Sistemas           | Entretenimiento | Ventas              | Sitio           | Legal             |
 | Tiempo             | Abastecimiento  | Patrocinio          | Técnico         | Seguridad         |
