@@ -6,13 +6,6 @@
 ## Principios fundamentales
 
 - Cooperativismo
-- Diálogo igualitario
-- Inteligencia cultural
-- Transformación
-- Dimensión instrumental
-- Creación de sentido
-- Solidaridad
-- Igualdad de diferencias
 - Acceso abierto
 - Datos abiertos
 - Democracia directa
@@ -21,3 +14,13 @@
 - Hardware libre
 - Software libre
 - Transparencia política
+
+## Prinicipios del Aprendizaje Dialógico
+
+- Diálogo igualitario
+- Inteligencia cultural
+- Transformación
+- Dimensión instrumental
+- Creación de sentido
+- Solidaridad
+- Igualdad de diferencias
