@@ -2,6 +2,8 @@
 |---|---|
 | ![Coderic](https://github.com/coderic.png) | Puede que Coderic te parezca muchas cosas, pero la verdad es que sómos una **Casa de Software**, y es que nosotros, hacemos **ingeniería de software**, nuestros **ecosistemas tecnológicos** son nuestra exposición al mundo de lo que hacemos ofreciendo herramientas e integración al alcance de todos |
 
+[Canal de WhatsApp](https://whatsapp.com/channel/0029Va7We7SFnSzFCwTi8R1C)
+
 # Coderic Development Team - Latinoamérica
 ## Principios fundamentales
 
