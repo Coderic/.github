@@ -1,27 +1,18 @@
-# Security Policy
+# Politica de seguridad
 
-The Coderic Development Team takes security very seriously, and aim to resolve issues as quickly as possible. Building secure
-software is a continuous process, and can always be improved. As such we welcome reports on potential security 
-vulnerabilities, as well as suggestions around hardening the software and our process.
+El equipo de desarrollo de Coderic (Coderic Development Team) se toma muy en serio la seguridad y su objetivo es resolver los problemas lo más rápido posible.
+La creación de software seguro es un proceso continuo y siempre se puede mejorar. Como tal, agradecemos informes sobre posibles vulnerabilidades de seguridad, así como sugerencias sobre cómo reforzar el software y nuestro proceso.
 
-## Reporting a suspected vulnerability
+## Informar de una vulnerabilidad sospechosa
 
-It is important that suspected vulnerabilities are disclosed in a responsible way, and are not publicly disclosed until
-after they have been analysed and a fix is available.
+Es importante que las vulnerabilidades sospechosas se revelen de manera responsable y no se hagan públicas hasta que hayan sido analizadas y haya una solución disponible.
 
-To report a security vulnerability, send an email to latam@coderic.org
+Para reportar una vulnerabilidad de seguridad, envíe un correo electrónico a latam@coderic.org
 
-If you would like to work with us on a fix for the security vulnerability, please include your GitHub username
-in the above email, and we will provide you access to a temporary private fork where we can collaborate on a fix 
-without it being disclosed publicly.
+Si desea trabajar con nosotros para solucionar la vulnerabilidad de seguridad, incluya su nombre de usuario de GitHub en el correo electrónico anterior y le proporcionaremos acceso a una bifurcación privada temporal donde podremos colaborar en una solución sin que se revele públicamente.
 
-Do *not* open a public issue, send a pull request, or disclose any information about the suspected vulnerability publicly.
-If you discover any publicly disclosed security vulnerabilities, please notify us *immediately* through 
-latam@coderic.org.
+No abra una edición pública, envíe una solicitud de extracción ni divulgue públicamente ninguna información sobre la vulnerabilidad sospechosa. Si descubre alguna vulnerabilidad de seguridad divulgada públicamente, notifíquenos de inmediato a través de latam@coderic.org .
 
-## Supported Versions
+## Versiones compatibles
 
-Depending on the severity of a vulnerability the issue may be fixed in the current `major.minor` release, or
-for lower severity vulnerabilities or hardening in the following `major.minor` release. Refer to 
-`https://coderic.org/downloads` to find the latest release.
-.
+Dependiendo de la gravedad de una vulnerabilidad, el problema puede solucionarse en la versión actual mayor.menor, o para vulnerabilidades de menor gravedad o endurecimiento en la siguiente versión mayor.menor. Consulte https://coderic.org/downloads para encontrar la última versión.
