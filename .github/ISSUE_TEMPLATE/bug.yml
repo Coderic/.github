@@ -1,6 +1,8 @@
 name: Reportar un Bug
 description: Informar un error no relacionado con la seguridad en CodericLatam
 labels: ["kind/bug", "status/triage"]
+assignees:
+  - neftaliyagua
 body:
   - type: textarea
     attributes:
