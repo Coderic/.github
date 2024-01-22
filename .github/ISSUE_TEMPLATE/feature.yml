@@ -1,6 +1,8 @@
 name: Solicitud de característica
 description: Solicite que se agregue una nueva característica a la aplicación
-labels: ["kind/feature", "status/triage"]
+labels: ["feature", "kind/feature", "status/triage"]
+assignees:
+  - neftaliyagua
 body:
   - type: textarea
     attributes:
