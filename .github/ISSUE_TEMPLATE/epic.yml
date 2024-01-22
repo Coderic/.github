@@ -1,0 +1,32 @@
+name: Épico
+description: Una característica importante que se divide en múltiples temas vinculados.
+labels: ["kind/epic", "status/triage"]
+body:
+  - type: textarea
+    attributes:
+      label: Descripción
+      description: Describe la característica en un nivel alto.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Discusión
+      description: |
+        Proporcione un enlace a la discusión de GitHub sobre la función.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Incidencias
+      description: Enumere las incidencias relacionadas con este conjunto de mejoras épicas.
+      placeholder: |
+        - #1
+        - #2
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Motivación
+      description: Proporcione una breve explicación de por qué se debe agregar la función.
+    validations:
+      required: false

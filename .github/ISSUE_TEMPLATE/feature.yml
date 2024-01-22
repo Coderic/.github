@@ -1,0 +1,31 @@
+name: Solicitud de característica
+description: Solicite que se agregue una nueva característica a la aplicación
+labels: ["kind/feature", "status/triage"]
+body:
+  - type: textarea
+    attributes:
+      label: Descripción
+      description: Describe la característica en un nivel alto.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Discussion
+      description: |
+        Si ha habido una discusión sobre esta característica, proporcione un enlace a la discusión.
+
+        Tenga en cuenta que todo, excepto las solicitudes pequeñas, debe discutirse a través de [Tormenta de ideas](https://github.com/orgs/CodericLatam/discussions/categories/tormenta-de-ideas).
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Motivación
+      description: Describa por qué se debe agregar la característica.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Detalles
+      description: ¿Ideas de diseño? ¿Ideas de implementación? ¡Cualquier cosa que nos dé más contexto sobre la función que estás proponiendo!
+    validations:
+      required: false

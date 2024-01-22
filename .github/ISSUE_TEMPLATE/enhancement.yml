@@ -1,0 +1,31 @@
+name: Solicitud de mejora
+description: Solicitar una mejora de una función existente
+labels: ["kind/enhancement", "status/triage"]
+body:
+  - type: textarea
+    attributes:
+      label: Descripción
+      description: Describe la mejora a alto nivel.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Discusión
+      description: |
+        Si ha habido una discusión sobre la mejora, proporcione un enlace a la discusión.
+
+        Tenga en cuenta que las mejoras más importantes deben discutirse a través de [Tormenta de ideas](https://github.com/orgs/CodericLatam/discussions/categories/tormenta-de-ideas).
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Motivación
+      description: Describa por qué se debe agregar la característica.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Detalles
+      description: ¿Más detalles? ¿Ideas de implementación? ¡Cualquier cosa que nos dé más contexto sobre la mejora que estás proponiendo!
+    validations:
+      required: false
