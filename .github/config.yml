@@ -21,11 +21,11 @@ firstPRMergeComment: >
 sentimentBotToxicityThreshold: .7
 
 sentimentBotReplyComment: >
-  Asegúrese de revisar el código de conducta y ser respetuoso con los demás usuarios.. cc/ @hiimbex
+  Asegúrese de revisar el código de conducta y ser respetuoso con los demás usuarios.. cc/ @neftaliyagua
 
 lockThreads:
   toxicityThreshold: .7
   numComments: 2
   setTimeInHours: 72
   replyComment: >
-    Este hilo está bloqueado debido a que se exceden los mínimos de toxicidad. cc/ @hiimbex
+    Este hilo está bloqueado debido a que se exceden los mínimos de toxicidad. cc/ @neftaliyagua
