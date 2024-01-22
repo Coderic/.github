@@ -1,6 +1,8 @@
 name: Solicitud de mejora
 description: Solicitar una mejora de una función existente
-labels: ["kind/enhancement", "status/triage"]
+labels: ["kind/enhancement", "enhancement", "status/triage"]
+assignees:
+  - neftaliyagua
 body:
   - type: textarea
     attributes:
