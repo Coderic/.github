@@ -1,0 +1,40 @@
+name: Reportar un Bug
+description: Informar un error no relacionado con la seguridad en CodericLatam
+labels: ["kind/bug", "status/triage"]
+body:
+  - type: textarea
+    attributes:
+      label: Describe el error
+      description: Proporcione una descripción clara y concisa de cuál es el problema.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Versión
+      description: ¿Qué versión de la Aplicación estás ejecutando?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Comportamiento esperado
+      description: Describa el comportamiento esperado de forma clara y concisa.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Comportamiento real
+      description: Describe el comportamiento real de forma clara y concisa.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: ¿Cómo se reproduce?
+      description: Proporcione pasos claros y concisos para reproducir el problema.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: ¿Algo más?
+      description: ¿Enlaces? ¿Referencias? ¡Cualquier cosa que nos brinde más contexto sobre el problema que ha encontrado!
+    validations:
+      required: false
