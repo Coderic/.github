@@ -1,6 +1,31 @@
+updateDocsWhiteList:
+  - BUG
+  - Chore
+  - minor
+
+updateDocsComment: >
+  ¡Gracias por abrir esta solicitud de extracción (pull request)! Los mantenedores de este repositorio agradecerían que actualizara parte de nuestra documentación en función de sus cambios.
+
+requestInfoReplyComment: >
+  ¡Le agradeceríamos que nos pudiera proporcionar más información sobre esta incidencia/pr!
+
+requestInfoLabelToAdd: request-more-info
+
 newIssueWelcomeComment: >
   ¡Gracias por abrir esta incidencia! Un miembro de Coderic Latam debería venir pronto para darnos su opinión. Mientras tanto, consulte las [directrices de contribución](https://github.com/CodericLatam/.github/blob/main/CONTRIBUTING.md).🎉🎉🎉
 newPRWelcomeComment: >
   ¡Gracias por abrir esta solicitud de extracción (pull request)! Un miembro del Coderic Latam debería venir pronto para darnos su opinión. Mientras tanto, consulte las [directrices de contribución](https://github.com/CodericLatam/.github/blob/main/CONTRIBUTING.md).🎉🎉🎉
 firstPRMergeComment: >
   ¡Felicitaciones por fusionar su primera solicitud de extracción! ¡Estamos orgullosos de usted!🎉🎉🎉
+
+sentimentBotToxicityThreshold: .7
+
+sentimentBotReplyComment: >
+  Asegúrese de revisar el código de conducta y ser respetuoso con los demás usuarios.. cc/ @hiimbex
+
+lockThreads:
+  toxicityThreshold: .7
+  numComments: 2
+  setTimeInHours: 72
+  replyComment: >
+    Este hilo está bloqueado debido a que se exceden los mínimos de toxicidad. cc/ @hiimbex
