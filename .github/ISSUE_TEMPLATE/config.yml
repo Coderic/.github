@@ -9,10 +9,3 @@ contact_links:
   - name: Grupo de WhatsApp
     url: https://chat.whatsapp.com/JvwyXjsKKw20j1ruSW9f30
     about: Puede hacer cualquier consulta urgente en el grupo de WhatsApp
-
-newIssueWelcomeComment: >
-  ¡Gracias por abrir esta incidencia! Un miembro de Coderic Latam debería venir pronto para darnos su opinión. Mientras tanto, consulte las [directrices de contribución](https://github.com/CodericLatam/.github/blob/main/CONTRIBUTING.md).
-newPRWelcomeComment: >
-  ¡Gracias por abrir esta solicitud de extracción (pull request)! Un miembro del Coderic Latam debería venir pronto para darnos su opinión. Mientras tanto, consulte las [directrices de contribución](https://github.com/CodericLatam/.github/blob/main/CONTRIBUTING.md).
-firstPRMergeComment: >
-  ¡Felicitaciones por fusionar su primera solicitud de extracción! ¡Estamos orgullosos de usted!

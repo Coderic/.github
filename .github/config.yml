@@ -1,0 +1,6 @@
+newIssueWelcomeComment: >
+  ¡Gracias por abrir esta incidencia! Un miembro de Coderic Latam debería venir pronto para darnos su opinión. Mientras tanto, consulte las [directrices de contribución](https://github.com/CodericLatam/.github/blob/main/CONTRIBUTING.md).🎉🎉🎉
+newPRWelcomeComment: >
+  ¡Gracias por abrir esta solicitud de extracción (pull request)! Un miembro del Coderic Latam debería venir pronto para darnos su opinión. Mientras tanto, consulte las [directrices de contribución](https://github.com/CodericLatam/.github/blob/main/CONTRIBUTING.md).🎉🎉🎉
+firstPRMergeComment: >
+  ¡Felicitaciones por fusionar su primera solicitud de extracción! ¡Estamos orgullosos de usted!🎉🎉🎉
