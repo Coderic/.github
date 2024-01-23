@@ -1,4 +1,4 @@
-name: Reportar un Bug
+name: 🐛 Reportar un Bug
 description: Informar un error no relacionado con la seguridad en CodericLatam
 labels: ["kind/bug", "bug", "status/triage"]
 assignees:
