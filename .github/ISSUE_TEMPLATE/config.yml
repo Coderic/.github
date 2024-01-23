@@ -1,15 +1,17 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Discusiones
+  - name: "💬 Discusiones"
     url: https://github.com/orgs/CodericLatam/discussions
     about: Proponga nuevas ideas, brinde comentarios o solicite ayuda aquí
-  - name: Canal en WhatsApp
+  - name: "Canal en WhatsApp"
     url: https://whatsapp.com/channel/0029Va7We7SFnSzFCwTi8R1C
     about: Puede mantenerse informado en el canal de WhatsApp
-  - name: Grupo en WhatsApp
+  - name: "❓ Solicite ayuda desde el grupo en WhatsApp"
     url: https://chat.whatsapp.com/JvwyXjsKKw20j1ruSW9f30
     about: Puede hacer cualquier consulta urgente en el grupo en WhatsApp
-
-  - name: Grupo en Facebook
+  - name: 📝 Grupo en Facebook
     url: https://www.facebook.com/groups/codericteam/
     about: Puedes abrir debates de discusión o consultas en el grupo en Facebook
+  - name: "📖 Documentación"
+    about: "Consulte primero la documentación de Coderic Latam antes de abrir nuevas incidencias o hacer preguntas."
+    url: https://es.coderic.org/docs/
