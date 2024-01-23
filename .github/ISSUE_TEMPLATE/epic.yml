@@ -36,7 +36,7 @@ body:
     id: terms
     attributes:
       label: Código de Conducta
-      description: Al enviar este problema, acepta seguir nuestro [Código de conducta](https://codericlatam.github.io/docs/codigo_de_conducta.html)
+      description: Al enviar esta incidencia, acepta seguir nuestro [Código de conducta](https://codericlatam.github.io/docs/codigo_de_conducta.html)
       options:
         - label: Acepto seguir el Código de conducta de este proyecto.
           required: true
