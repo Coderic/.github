@@ -15,6 +15,14 @@
 - Software libre
 - Transparencia política
 
+## Principios para las decisiones de diseño
+
+- Mantenlo simple, estúpido.
+- Hazlo por una razón. No es arte.
+- Hazlo para que dure.
+- Hazlo sostenible. El tiempo de inactividad es clave para la productividad.
+- Habilita a otros. Soy prescindible.
+
 ## Prinicipios del Aprendizaje Dialógico
 
 - Diálogo igualitario
