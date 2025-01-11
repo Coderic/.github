@@ -33,6 +33,6 @@
 - Solidaridad
 - Igualdad de diferencias
 
-<img alt="Static Badge" src="https://img.shields.io/badge/Coderic-Latam-orange" /> 
+<img alt="Static Badge" src="https://img.shields.io/badge/CODERIC-TEAM-orange" /> 
 
 [Canal de WhatsApp](https://whatsapp.com/channel/0029Vb2MVYD1NCrQb0msDe0K)
