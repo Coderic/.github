@@ -35,4 +35,4 @@
 
 <img alt="Static Badge" src="https://img.shields.io/badge/Coderic-Latam-orange" /> 
 
-[Canal de WhatsApp](https://whatsapp.com/channel/0029Va7We7SFnSzFCwTi8R1C)
+[Canal de WhatsApp](https://whatsapp.com/channel/0029Vb2MVYD1NCrQb0msDe0K)
