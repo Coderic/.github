@@ -33,3 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           gpg --list-secret-keys --keyid-format=long
+          # Install gpg secret key
+          cat <(echo -e "${{ secrets.OSSRH_GPG_SECRET_KEY }}") | gpg --batch --import
+          # Verify gpg secret key
+          gpg --list-secret-keys --keyid-format LONG
