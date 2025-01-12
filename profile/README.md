@@ -4,7 +4,7 @@
 
 ***
 
-| Welcome! <br>This is **Coderic** | Corporation Oriented to the Development of Engineering Resources and Information for Commerce |
+| Welcome! <br>This is **Coderic** | Corporation Oriented to the Development of Engineering <br>Resources and Information for Commerce |
 |---|---|
 | ![Coderic](https://github.com/Coderic.png) | Coderic may seem like a lot to you, but the truth is that we are a **Software Factory**, and that is that we, we do **software engineering**, our **technological ecosystems** are our exposure to the world of what we do offering tools and integration within everyone's reach. |
 
