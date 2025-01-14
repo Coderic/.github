@@ -1,3 +1,4 @@
+[Canal en WhatsApp](https://whatsapp.com/channel/0029Vb2MVYD1NCrQb0msDe0K) · [Grupo en Facebook](https://www.facebook.com/groups/coderic)
 | ¡Bienvenido!<br>Esto es **Coderic** | Corporación Orientada al Desarrollo Estratégico<br>de Recursos de Información Comercial |
 |---|---|
 | ![Coderic](https://github.com/Coderic.png) | Puede que Coderic te parezca muchas cosas, pero la verdad es que sómos una **Casa de Software**, y es que nosotros, hacemos **ingeniería de software**, nuestros **ecosistemas tecnológicos** son nuestra exposición al mundo de lo que hacemos ofreciendo herramientas e integración al alcance de todos |
@@ -43,6 +44,4 @@
 
 <img alt="Static Badge" src="https://img.shields.io/badge/CODERIC-TEAM-orange" /> 
 
-[Canal de WhatsApp](https://whatsapp.com/channel/0029Vb2MVYD1NCrQb0msDe0K)
-[Grupo en Facebook](https://www.facebook.com/groups/coderic)
 
