@@ -7,11 +7,11 @@ La creación de software seguro es un proceso continuo y siempre se puede mejora
 
 Es importante que las vulnerabilidades sospechosas se revelen de manera responsable y no se hagan públicas hasta que hayan sido analizadas y haya una solución disponible.
 
-Para reportar una vulnerabilidad de seguridad, envíe un correo electrónico a latam@coderic.org
+Para reportar una vulnerabilidad de seguridad, envíe un correo electrónico a security@coderic.org
 
 Si desea trabajar con nosotros para solucionar la vulnerabilidad de seguridad, incluya su nombre de usuario de GitHub en el correo electrónico anterior y le proporcionaremos acceso a una bifurcación privada temporal donde podremos colaborar en una solución sin que se revele públicamente.
 
-No abra una edición pública, envíe una solicitud de extracción ni divulgue públicamente ninguna información sobre la vulnerabilidad sospechosa. Si descubre alguna vulnerabilidad de seguridad divulgada públicamente, notifíquenos de inmediato a través de latam@coderic.org .
+No abra una edición pública, envíe una solicitud de extracción ni divulgue públicamente ninguna información sobre la vulnerabilidad sospechosa. Si descubre alguna vulnerabilidad de seguridad divulgada públicamente, notifíquenos de inmediato a través de security@coderic.org .
 
 ## Versiones compatibles
 
