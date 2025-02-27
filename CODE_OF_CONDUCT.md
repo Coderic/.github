@@ -143,7 +143,7 @@ Si un miembro de la comunidad tiene un comportamiento inaceptable, los organizad
 
 ## 7. Directrices para la presentación de informes y quejas
 
-Si está sujeto o es testigo de un comportamiento inaceptable, o tiene alguna otra inquietud, notifique a un organizador comunitario lo antes posible. admin@coderic.org.
+Si está sujeto o es testigo de un comportamiento inaceptable, o tiene alguna otra inquietud, notifique a un organizador comunitario lo antes posible. coderic@coderic.org.
 
 [Reporting guidelines](http://coderic.org/reporting)
 
@@ -161,7 +161,7 @@ Este código de conducta y sus procedimientos relacionados también se aplican a
 
 ## 10. Información de contacto
 
-admin@coderic.org
+coderic@coderic.org
 
 ## 11. Licencia y atribución
 
