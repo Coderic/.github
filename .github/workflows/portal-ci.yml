@@ -1,0 +1,76 @@
+# Ruta de llamada desde un portal:
+#   uses: Coderic/.github/.github/workflows/portal-ci.yml@master
+# El primer ".github" es el nombre del repositorio de la organización;
+# el segundo es el directorio obligatorio de workflows. No es un typo.
+# Reusable CI for Coderic portals and Node packages (Hono / Vitest / Hugo toolchain).
+name: Portal CI
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        description: Node.js version
+        type: string
+        default: "20"
+      run-build:
+        description: Run npm run build after tests
+        type: boolean
+        default: false
+      working-directory:
+        description: Subdirectory of the repository (optional)
+        type: string
+        default: "."
+
+permissions:
+  contents: read
+  packages: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{ inputs.working-directory }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node-version }}
+          cache: npm
+          cache-dependency-path: ${{ inputs.working-directory }}/package-lock.json
+
+      - name: Configure GitHub Packages
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          printf '%s\n' "@coderic:registry=https://npm.pkg.github.com" "//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}" > .npmrc
+          if [ -d dashboard-app ]; then
+            cp .npmrc dashboard-app/.npmrc
+          fi
+
+      - name: Install
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CI: "true"
+        run: npm ci
+
+      - name: Test
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CI: "true"
+          TZ: UTC
+        run: npm test
+
+      - name: Build
+        if: ${{ inputs.run-build }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CI: "true"
+        run: npm run build

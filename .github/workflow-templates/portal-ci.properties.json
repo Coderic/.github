@@ -1,0 +1,7 @@
+{
+  "name": "Coderic Portal CI",
+  "description": "Quality gate for Coderic portals: npm ci, Vitest, optional Hugo/dashboard build.",
+  "iconName": "octoface",
+  "categories": ["Continuous integration", "Dependency management"],
+  "filePatterns": ["package.json", "wrangler.toml", "functions/**/*.ts"]
+}
