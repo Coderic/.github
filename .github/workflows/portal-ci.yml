@@ -1,3 +1,7 @@
+# Ruta de llamada desde un portal:
+#   uses: Coderic/.github/.github/workflows/portal-ci.yml@master
+# El primer ".github" es el nombre del repositorio de la organización;
+# el segundo es el directorio obligatorio de workflows. No es un typo.
 # Reusable CI for Coderic portals and Node packages (Hono / Vitest / Hugo toolchain).
 name: Portal CI
 

@@ -1,5 +1,7 @@
 name: CI
 # Portal quality gate: install private @coderic packages, run Vitest, optional build.
+# uses: owner/repo/path@ref — el repo org se llama literalmente ".github",
+# así que la ruta queda Coderic/.github/.github/workflows/... (no es un typo).
 on:
   push:
     branches: ["$default-branch"]
